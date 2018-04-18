@@ -6,5 +6,5 @@ get '/' do
 end
 
 get '/apple-app-site-association' do
-  File.read(File.join('public', 'apple-app-site-association'))  
+  File.read('apple-app-site-association')  
 end
