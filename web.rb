@@ -2,7 +2,7 @@ require 'sinatra'
 require 'rubygems'
 
 get '/' do
-  "Hello, world"
+  File.read('index.html')  
 end
 
 get '/apple-app-site-association' do
