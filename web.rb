@@ -6,5 +6,6 @@ get '/' do
 end
 
 get '/apple-app-site-association' do
+  content_type :json
   File.read('apple-app-site-association')  
 end
